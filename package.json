@@ -1,0 +1,18 @@
+{
+  "name": "soon-staking-script",
+  "version": "1.0.0",
+  "description": "Script to interact with SOON staking contract",
+  "main": "src/stake.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "process": "^0.11.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "viem": "^2.30.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19"
+  }
+}
